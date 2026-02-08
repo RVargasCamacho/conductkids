@@ -166,6 +166,8 @@ footer{
 }
 
 /*Banners */
+
+/*Banner - Inicio*/
 .hero-section {
     background: linear-gradient(#ac540c59, rgba(0, 0, 0, 0.5)), url('../img/hero-bg.jpg');
     background-size: cover;
@@ -212,6 +214,25 @@ footer{
 /*Banner - Blog*/
 .bg-info {
     background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/terapiasconductuales.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-dark{
+    --bs-text-opacity: 1;
+    color: rgb(255, 255, 255) !important;
+}
+
+/*Banner - Contacto*/
+.bg-danger{
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/banner-contacto.avif');
     background-size: cover;
     background-position: center;
     height: 30vh;
