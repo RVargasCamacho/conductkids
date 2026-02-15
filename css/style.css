@@ -165,11 +165,18 @@ footer{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+.card-img-top{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /*Banners */
 
 /*Banner - Inicio*/
 .hero-section {
-    background: linear-gradient(#ac540c59, rgba(0, 0, 0, 0.5)), url('../img/hero-bg.jpg');
+    background: linear-gradient(#ac540c59, rgba(0, 0, 0, 0.5)), url('/img/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -182,7 +189,7 @@ footer{
 }
 /*Banner - Nosotros*/
 .bg-primary{
-    background: linear-gradient(#ac540c59, rgba(0, 0, 0, 0.5)), url('../img/psicologia.webp');
+    background: linear-gradient(#ac540c59, rgba(0, 0, 0, 0.5)), url('/img/psicologia.webp');
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -195,7 +202,7 @@ footer{
 }
 /*Banner - Servicios*/
 .bg-warning {
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/fonoaudiologia.jpg');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('/img/fonoaudiologia.jpg');
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -213,7 +220,7 @@ footer{
 }
 /*Banner - Blog*/
 .bg-info {
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/terapiasconductuales.png');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('/img/terapiasconductuales.png');
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -232,7 +239,7 @@ footer{
 
 /*Banner - Contacto*/
 .bg-danger{
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/banner-contacto.avif');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('/img/banner-contacto.avif');
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -248,3 +255,4 @@ footer{
     --bs-text-opacity: 1;
     color: rgb(255, 255, 255) !important;
 }
+
