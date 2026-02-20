@@ -22,12 +22,28 @@ p,a{
 }
 
 
+li a{
+    text-decoration: none;
+    color: #0a1150;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: var(--transition);
+}
+
+li a:hover{
+    text-decoration: none;
+    color: var(--secondary-orange);
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
 footer{
     font-family: 'inter', sans-serif;
     font-size: 1rem;
     font-weight: 500;
     background-color: #eaedf0;
-    color: #1F2937;
+    color: #0a1150;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -239,7 +255,7 @@ footer{
 
 /*Banner - Contacto*/
 .bg-danger{
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('/img/banner-contacto.avif');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/banner-contacto.avif');
     background-size: cover;
     background-position: center;
     height: 30vh;
