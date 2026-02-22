@@ -218,7 +218,7 @@ footer{
 }
 /*Banner - Servicios*/
 .bg-warning {
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/fonoaudiologia.jpg');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/banner-nuestroservicios.png');
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -236,7 +236,7 @@ footer{
 }
 /*Banner - Blog*/
 .bg-info {
-    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/terapiasconductuales.png');
+    background: linear-gradient(#eb720959, rgba(0, 0, 0, 0.5)), url('../img/banner-blogeducativo.jpg');
     background-size: cover;
     background-position: center;
     height: 30vh;
