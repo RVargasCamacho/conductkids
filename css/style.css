@@ -20,9 +20,9 @@ li a {
   transition: var(--transition);
 }
 li a:hover {
-  text-decoration: none;
-  color: var(--secondary-orange);
-  transform: translateX(5px);
+  color: #f39c12;
+  transition: all 0.3s ease;
+  transform: translateY(-3px);
   cursor: pointer;
 }
 
@@ -62,9 +62,25 @@ footer .footer-brandconductkids {
   justify-content: center;
 }
 
+.nav-link {
+  position: relative;
+  transition: var(--transition);
+}
+.nav-link:hover {
+  color: #f39c12;
+  transform: translateX(-3px);
+  transition: all 0.3s ease;
+}
+
 .brandconductkids {
   max-width: 70%;
   height: 100px;
+  transition: ease-in-out;
+}
+.brandconductkids:hover {
+  color: #f39c12;
+  transform: translateX(-3px);
+  transition: all 0.3s ease;
 }
 
 .btn-custom {
