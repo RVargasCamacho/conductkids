@@ -213,6 +213,16 @@ footer {
     }
 }
 
+.card-link{
+    text-decoration: none;
+    color: $primary-blue;
+    transition: 0.3s;
+    
+    &:hover {
+        color: $secondary-orange;
+        transform: translateY(-3px);
+    }
+}
 
 // Banners
 .hero-section { @include banner-style('../img/hero-bg.jpg', 80vh, #ac540c59); }
@@ -225,16 +235,6 @@ footer {
     color: $white !important;
 }
 
-.card-link{
-    text-decoration: none;
-    color: $primary-blue;
-    transition: 0.3s;
-    
-    &:hover {
-        color: $secondary-orange;
-        transform: translateY(-3px);
-    }
-}
 
 
 
