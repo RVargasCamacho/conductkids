@@ -72,6 +72,21 @@ footer .footer-brandconductkids {
   transition: all 0.3s ease;
 }
 
+.nav-link-active {
+  border-style: none;
+  transition: var(--transition);
+  background-color: #1d2996;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+.nav-link-active:hover {
+  background-color: #f39c12;
+  color: #ffffff;
+  transform: translateX(-3px);
+  transition: all 0.3s ease;
+}
+
 .brandconductkids {
   max-width: 70%;
   height: 100px;
@@ -93,6 +108,22 @@ footer .footer-brandconductkids {
 }
 .btn-custom:hover {
   background-color: #0056b3;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card-btn {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.blog-card-btn:hover {
+  background-color: #f39c12;
   color: #ffffff;
   transform: translateY(-3px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -208,6 +239,16 @@ footer .footer-brandconductkids {
   color: #ffffff !important;
 }
 
+.card-link {
+  text-decoration: none;
+  color: #0056b3;
+  transition: 0.3s;
+}
+.card-link:hover {
+  color: #f39c12;
+  transform: translateY(-3px);
+}
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;
@@ -222,7 +263,7 @@ footer .footer-brandconductkids {
 
 @media (max-width: 576px) {
   .navbar-brand img {
-    height: 40px;
+    height: 80px;
   }
 }
 
